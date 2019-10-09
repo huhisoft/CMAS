@@ -1,0 +1,17 @@
+{
+  "restApiRoot": "/api",
+  "host": "0.0.0.0",
+  "port": 80,
+  "internal-communication-port": 2211,
+  "delay": 5000,
+  "serialport": "/dev/ttyAMA0",
+  "baudRate": 9600,
+  "id": 5,
+  "cPath": "../client",
+  "historyN": 1,
+  "historyH": "day",
+  "historyF": "YYYY-MM-DD",
+  "fileName": "YYYY-MM-DD-HH",
+  "fileHead" : "Datetime,i1,i2,i3,v12,v23,v13,v1,v2,v3,kW1,kW2,kW3,kW,kVAR1,kVAR2,kVAR3,kVAR,kVA1,kVA2,kVA3,kVA" ,
+  "debug": true
+}

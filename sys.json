@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "HNQ-Services",
+      "script": "index.js",
+      "merge_logs": true,
+      "error_file": "./child-err.log",
+      "out_file": "./child-out.log",
+      "pid_file": "./child.pid",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
